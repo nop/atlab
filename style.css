@@ -1,0 +1,40 @@
+/* I love you laboum */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+body {
+	background-color: #fafafa;
+	color: #444444;
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+}
+
+#clock {
+	font-size: 5em;
+	font-weight: 100;
+	color: salmon;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td, th {
+	min-width: 100px;
+	text-align: center;
+	border: 1px solid #666;
+}
+
+td {
+	font-size: 1.3em;
+}
+
+tr[data-now='true'] > td.ts {
+	background-color: pink;
+}
+
+.sleep:hover, .work:hover, .quality:hover {
+	color: white;
+	background: black;
+}
